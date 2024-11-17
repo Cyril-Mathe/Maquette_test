@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Qwigley&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #161616;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+header img {
+    height: 100px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: #E0C184;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Qwigley", cursive;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.banner {
+    height: 600px;
+    background-image: url(images/fond.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 1rem;
+    font-size: 5rem;
+}
+
+.banner p {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.inner {
+    font-family: "Qwigley", cursive;
+    color: white;
+}
+
+.offer {
+    height: 80px;
+    background-color: #C2AFE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+a {
+    color: #8b7963;
+}
+
+ul {
+    margin: 3rem;
+}
+
+.about {
+    background-color: #9A7963;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1500px;
+    font-family: "Open Sans", sans-serif;
+}
+
+section div div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.card {
+    width: 400px;
+}
+
+.container div div {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.container div div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.container p {
+    margin: 2rem;
+}
+
+.container div h2 {
+    font-family: "Qwigley", cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    height: 100px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
