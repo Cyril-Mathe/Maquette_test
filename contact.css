@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Qwigley&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* -----HEADER----- */
+
+header {
+    background-color: #161616;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+header img {
+    height: 100px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: #E0C184;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Qwigley", cursive;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+a:nth-child(4) {
+    color: white;
+}
+
+/* -----MAIN----- */
+
+.container {
+    max-width: 1500px;
+}
+
+.container h1 {
+    color: #8b7963;
+    font-family: "Qwigley", cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.container h2 {
+    color: #8b7963;
+    font-family: "Qwigley", cursive;
+    display: flex;
+    justify-content: center;
+}
+
+form div:first-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+/* -----FOOTER----- */
+
+footer {
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    height: 100px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
